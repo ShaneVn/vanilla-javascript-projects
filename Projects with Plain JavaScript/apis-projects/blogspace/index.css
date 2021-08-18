@@ -1,0 +1,45 @@
+body{
+    margin: 0;
+    padding: 0;
+
+}
+
+
+nav{
+    background-color:lightgray;
+    padding: 5px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+}
+
+
+#blog-list {
+    padding: 10px;
+}
+
+form {
+    padding: 60px 10px 10px;
+    display: grid;
+    background-color: lightblue;
+}
+
+input#post-title, textarea#post-body{
+    margin-bottom: 10px;
+}
+
+
+button{
+    padding: 5px 0 ;
+    cursor: pointer;
+    font-size: 15px;
+    width: 80px;
+}
+
+#container{
+    width: 600px;
+    margin: 0 auto;
+}
+

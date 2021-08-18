@@ -1,0 +1,37 @@
+body {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", Arial,
+    sans-serif;
+  background-image: url("poker-background-with-playing-cards-and-chips-on-green-casino-background-modern-poker-widescreen-wallpaper-vector.jpg");
+  background-size: cover;
+  font-weight: bold;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+}
+
+/* p {
+  color: black;
+} */
+
+h1 {
+  color: goldenrod;
+}
+
+#message-el {
+  font-style: italic;
+}
+
+/* 3. Make sure that the two buttons have some space between
+each other when they are rendered out vertically */
+button {
+  color: #016f32;
+  width: 150px;
+  background: goldenrod;
+  padding-top: 5px;
+  padding-bottom:5px ;
+  font-weight: bold;
+  border: none;
+  border-radius: 2px;
+  margin-top: 5px;
+  cursor: pointer;
+}

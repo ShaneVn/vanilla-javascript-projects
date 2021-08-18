@@ -1,0 +1,53 @@
+html, body{
+    margin: 10;
+    padding: 10;
+    text-align: center;
+    background-size: cover;
+    background-image: url('wp2409705.jpg');
+
+}
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    width: 320px;
+    height: 320px;
+    border:solid 2px black;
+    margin: 0 auto;
+}
+
+
+.square{
+    height: 32px;
+    width: 32px;
+}
+
+.snake{
+    background-color: rgb(0, 119, 255);
+}
+
+
+.apple{
+    /* content: url("apple.png"); */
+    background-color: red;
+}
+
+
+ button{
+    border-radius: 4px;
+    color: black;
+    background-color:green ;
+    border:none;
+    cursor:pointer;
+    font-size: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+} 
+
+
+h1{
+    font-family: 'Cabin', sans-serif;
+}
